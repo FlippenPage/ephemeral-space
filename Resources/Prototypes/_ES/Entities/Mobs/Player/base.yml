@@ -4,3 +4,7 @@
   abstract: true
   components:
   - type: ESInherentLight
+  - type: ESViewcone
+  - type: ESViewconeOccludable
+  - type: MouseRotator
+  - type: NoRotateOnMove
