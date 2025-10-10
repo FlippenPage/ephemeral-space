@@ -678,10 +678,12 @@
     price: 750
   - type: StealTarget
     stealGroup: WeaponAntiqueLaser
-  - type: SentienceTarget # I hope this is only the captain's gun
-    flavorKind: station-event-random-sentience-flavor-inanimate
-    weight: 0.0002 # 5,000 times less likely than 1 regular animal
+# ES Start
+  # - type: SentienceTarget # I hope this is only the captain's gun
+    # flavorKind: station-event-random-sentience-flavor-inanimate
+    # weight: 0.0002 # 5,000 times less likely than 1 regular animal
     # not putting a BlockMovement component here cause that's funny.
+# ES End
 
 - type: entity
   name: advanced laser pistol

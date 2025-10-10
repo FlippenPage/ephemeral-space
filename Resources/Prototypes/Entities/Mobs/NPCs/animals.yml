@@ -47,8 +47,10 @@
     interactSuccessSpawn: EffectHearts
     interactSuccessSound:
       path: /Audio/Animals/fox_squeak.ogg
-  - type: SentienceTarget
-    flavorKind: station-event-random-sentience-flavor-organic
+# ES Start
+  # - type: SentienceTarget
+    # flavorKind: station-event-random-sentience-flavor-organic
+# ES End
   - type: Bloodstream
     bloodMaxVolume: 50
   - type: ReplacementAccent
@@ -268,8 +270,10 @@
   - type: ExaminableHunger
   - type: ReplacementAccent
     accent: chicken
-  - type: SentienceTarget
-    flavorKind: station-event-random-sentience-flavor-organic
+# ES Start
+  # - type: SentienceTarget
+    # flavorKind: station-event-random-sentience-flavor-organic
+# ES End
   - type: NpcFactionMember
     factions:
     - Passive
@@ -711,8 +715,10 @@
   - type: ExaminableHunger
   - type: ReplacementAccent
     accent: duck
-  - type: SentienceTarget
-    flavorKind: station-event-random-sentience-flavor-organic
+# ES Start
+  # - type: SentienceTarget
+    # flavorKind: station-event-random-sentience-flavor-organic
+# ES End
   - type: NpcFactionMember
     factions:
     - Passive
@@ -3586,8 +3592,10 @@
       path: /Audio/Animals/pig_oink.ogg
   - type: ReplacementAccent
     accent: pig
-  - type: SentienceTarget
-    flavorKind: station-event-random-sentience-flavor-organic
+# ES Start
+  # - type: SentienceTarget
+    # flavorKind: station-event-random-sentience-flavor-organic
+# ES End
   - type: NpcFactionMember
     factions:
     - Passive
