@@ -185,6 +185,9 @@
     - Airlocks
     - WirePanels
     - Networking
+# ES START
+  - type: ESGreyTideVirusTarget
+# ES END
   placement:
     mode: SnapgridCenter
 
