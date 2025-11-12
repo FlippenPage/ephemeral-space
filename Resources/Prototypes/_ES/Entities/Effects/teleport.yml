@@ -9,18 +9,20 @@
     noRot: true
     loop: false
   - type: TimedDespawn
-    lifetime: 1.3
+    lifetime: 3
   - type: EmitSoundOnSpawn
     sound:
-      path: /Audio/Effects/Lightning/lightningbolt.ogg
+      path: /Audio/_ES/Effects/teleport.ogg
       params:
-        variation: 0.125
-  - type: PointLight
-    radius: 3
-    energy: 2.5
-    falloff: 10
-    curveFactor: 0.5
-    color: "#aaff7a"
+        variation: 0.05
+# This will persist throughout the entire time the entity is spawned, BUT, sound cannot play in full if the entity get despawned by TimedDespawn before it is finished.
+# TODO: Either make the sound not tied to the entity, or add a timed pointlight.
+#  - type: PointLight
+#    radius: 3
+#    energy: 2.5
+#    falloff: 10
+#    curveFactor: 0.5
+#    color: "#aaff7a"
   - type: Tag
     tags:
     - HideContextMenu
@@ -31,7 +33,11 @@
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
-    state: teleport_gray
-    color: "#7D1500"
-  - type: PointLight
-    color: "#fa2a00"
+    layers:
+    - state: teleport_gray
+      color: "#ff5555"
+    - state: teleport_gray_electric
+      color: "#ff5555"
+    - state: teleport_gray_center
+#  - type: PointLight
+#    color: "#fa2a00"
