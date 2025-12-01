@@ -1,10 +1,10 @@
 es-stagehand-ui-title = Become a Stagehand?
 es-stagehand-ui-button-text-accept = Become a Stagehand
 es-stagehand-ui-button-text-deny = Stay in the Theater
-es-stagehand-ui-label-explanation = [bold]Stagehands[/bold] are a unique [italic]out-of-character[/italic] role in Ephemeral Space.
+es-stagehand-ui-label-explanation = [bold]Stagehands[/bold] are a special [italic]out-of-character[/italic] role.
+    Instead of playing as a job or character in the round, you [italic]can spectate and influence the crew from beyond the veil[/italic].
 
-    As a stagehand, your job is to create [italic]interest, conflict, and excitement[/italic] for the players on board the station.
-    To accomplish this, you'll have access to a variety of votable options to affect the people on-station with.
-    Additionally, you'll also be able to observe the station itself, seeing people's actions, masks, and objectives.
+    Stagehands can fly around the station and observe the actions, masks, and objectives of all players in the round.
+    They can also initiate a variety of votes to mess with players & affect the round.
 
     {""}[color=red][bold]Warning:[/bold] Once you become a stagehand, you will be [bold]unable to return[/bold] to the theater for the remainder of the round![/color]
