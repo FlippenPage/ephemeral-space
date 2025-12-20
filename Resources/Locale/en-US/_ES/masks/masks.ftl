@@ -40,6 +40,9 @@ es-mask-survivalist-medalert-death-message = MedAlert Notice: A tragedy has befa
 es-mask-sacrifice-name = Sacrifice
 es-mask-sacrifice-desc = Find an opportunity to heroically sacrifice yourself, and heal others in your presence massively by doing so.
 
+es-mask-vandal-name = Vandal
+es-mask-vandal-desc = Sabotage random machines around the station for a little bit of fun. Try not to get pinned as a Traitor.
+
 # Traitor masks
 es-mask-troupe-traitor-examine = They're a fellow [bold][color=red]Traitor[/color][/bold] and a member of the [bold][color=red]Syndicate[/color][/bold]. Work together to complete the objectives.
 
