@@ -20,7 +20,6 @@ namespace Content.IntegrationTests.Tests._Citadel;
 ///     If you need multiple clients you currently must fall back to using testpairs yourself.
 /// </remarks>
 [Virtual]
-[PublicAPI]
 public partial class GameTestData
 {
     private bool _pairDirty;
