@@ -234,7 +234,10 @@
       prob: 0.75
 
 - type: entity
-  parent: LockerEvacRepair
+  # ES START
+  # unused but old parent was removed? idk
+  parent: ClosetEmergency
+  # ES END
   id: LockerEvacRepairFilled
   suffix: Filled
   components:
@@ -244,7 +247,10 @@
         tableId: FillLockerEvacRepair
 
 - type: entity
-  parent: LockerWallEvacRepair
+  # ES START
+  # unused but old parent was removed? idk
+  parent: ClosetWallEmergency
+  # ES END
   id: LockerWallEvacRepairFilled
   suffix: Filled
   components:

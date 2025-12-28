@@ -140,7 +140,10 @@
     - id: JetInjector
 
 - type: entity
-  parent: LockerParamedic
+  # ES START
+  # unused but old parent was removed? idk
+  parent: LockerMedical
+  # ES END
   id: LockerParamedicFilled
   suffix: Filled
   components:
