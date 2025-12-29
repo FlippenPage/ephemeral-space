@@ -22,7 +22,7 @@ namespace Content.Server._ES.Masks.Masquerades;
 /// <summary>
 ///     This handles masquerade management and how they influence game flow.
 /// </summary>
-public sealed class ESMasqueradeSystem : GameRuleSystem<ESMasqueradeRuleComponent>
+public sealed partial class ESMasqueradeSystem : GameRuleSystem<ESMasqueradeRuleComponent>
 {
     [Dependency] private readonly IChatManager _chat = default!;
     [Dependency] private readonly IPrototypeManager _proto = default!;
@@ -33,6 +33,8 @@ public sealed class ESMasqueradeSystem : GameRuleSystem<ESMasqueradeRuleComponen
 
     // Icky global state.
     private ProtoId<ESMasqueradePrototype>? _forcedMasquerade = null;
+
+    public override Type[]? RoundEndTextBefore => [typeof(ESMaskSystem)];
 
     /// <inheritdoc/>
     public override void Initialize()
