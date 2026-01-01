@@ -115,6 +115,7 @@ VendingMachineMedicalBase: ESVendingMachineMedical
 VendingMachineChefvend: ESVendingMachineChefvend
 VendingMachineDinnerware: ESVendingMachineDinnerware
 VendingMachineSeedsUnlocked: ESVendingMachineSeedsUnlocked
+VendingMachineSeeds: ESVendingMachineSeedsUnlocked
 VendingMachineNutri: ESVendingMachineNutri
 VendingMachineCart: ESVendingMachineCart
 VendingMachineRobotics: ESVendingMachineRobotics
@@ -211,6 +212,9 @@ SpawnPointScientist: ESSpawnPointScientist
 SpawnPointWarden: ESSpawnPointWarden
 SpawnPointSecurityOfficer: ESSpawnPointSecurityOfficer
 SpawnPointDetective: ESSpawnPointDetective
+
+# 2025-12-29
+Autolathe: ESAutolathe
 
 # ES END
 
