@@ -66,6 +66,8 @@ es-mask-recruit-desc = You've been recruited to the syndicate, Aid your fellow t
 es-mask-subverter-name = Subverter
 es-mask-subverter-desc = Aid your fellow traitors & complete your objectives to detonate the nuke. You have recieved two brain-altering chips to convert crewmembers into fresh syndicate recruits.
 
+es-mask-demolitionist-name = Demolitionist
+es-mask-demolitionist-desc = Aid your fellow traitors & complete your objectives to detonate the nuke. You have trained by the syndicate for controlled demolitions.
 # Meta
 es-objective-issuer-mask = Mask
 
