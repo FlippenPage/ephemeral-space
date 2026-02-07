@@ -60,6 +60,12 @@ es-mask-parasite-desc = As a parasite, you are a devilish worm. Get killed by so
 es-mask-hitman-name = Hitman
 es-mask-hitman-desc = As a hitman, use your dossiers in order to identify your targets and take them out.
 
+es-mask-secretary-name = Secretary
+es-mask-secretary-desc = As a secretary, do whatever you can to help your target complete their objectives.
+
+es-mask-hater-name = Hater
+es-mask-hater-desc = As a hater, do everything in your power to make your target fail their objectives.
+
 # Traitor masks
 es-mask-troupe-traitor-examine = They're a fellow [bold][color=red]Traitor[/color][/bold] and a member of the [bold][color=red]Syndicate[/color][/bold]. Work together to complete your group objectives.
 

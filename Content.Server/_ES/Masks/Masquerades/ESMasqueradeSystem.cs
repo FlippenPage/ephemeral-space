@@ -98,7 +98,9 @@ public sealed partial class ESMasqueradeSystem : GameRuleSystem<ESMasqueradeRule
 
         var players = ev.Players;
 
-        var masksEnum = masks.OrderByDescending(MaskOrder);
+        var masksEnum = masks
+            .OrderBy(m => _proto.Index(m).AssignmentOrder)
+            .ThenByDescending(MaskOrder);
 
         foreach (var mask in masksEnum)
         {
@@ -147,9 +149,10 @@ public sealed partial class ESMasqueradeSystem : GameRuleSystem<ESMasqueradeRule
         }
     }
 
-    private int MaskOrder(ProtoId<ESMaskPrototype> mask)
+    private int MaskOrder(ProtoId<ESMaskPrototype> maskId)
     {
-        var troupe = _proto.Index(_proto.Index(mask).Troupe);
+        var mask = _proto.Index(maskId);
+        var troupe = _proto.Index(mask.Troupe);
 
         return troupe.ProhibitedJobs.Count; // The tighter the prohibition list, the more careful we are.
     }
