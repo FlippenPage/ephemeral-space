@@ -26,6 +26,9 @@
   - type: ESTargetTroupeObjective
     troupe: ESTraitor
     invert: true
+  - type: ESTargetMaskBlacklist
+    maskBlacklist:
+    - ESSyndieSuperfan
   - type: ESKillTargetObjective
 
 ### Sabotage objectives

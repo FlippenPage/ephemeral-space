@@ -306,3 +306,12 @@
   - type: ESMaskCacheSpawner
     cacheProto:
       id: ESCrateCacheTraitorDemolitionist
+
+# Neutral/oddball masks
+- type: esMask
+  id: ESSyndieSuperfan
+  name: es-mask-syndie-superfan-name
+  troupe: ESCrew
+  description: es-mask-syndie-superfan-desc
+  mindComponents:
+  - type: ESSuperfan
